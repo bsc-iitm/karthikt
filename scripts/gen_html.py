@@ -10,7 +10,7 @@ def html_to_slideshow(soup):
     css_slidy = soup.new_tag('link', attrs = {'rel': 'stylesheet',
                                             'type': 'text/css',
                                             'media': 'screen, projection, print',
-                                            'href': 'http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css' })
+                                            'href': 'https://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css' })
                                             
     head.insert(0, js_slidy)
     head.insert(0, css_slidy)

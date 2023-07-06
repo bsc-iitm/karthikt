@@ -323,7 +323,310 @@ Sans Math + Liberation Font
 	font-weight: bold;
 }
 
-/***********************************************************/</style><style>
+/***********************************************************/</style><style>/* @font-face {
+  font-family: 'FontAwesome';
+  src: format('woff'), url('../../fonts/icomoon.svg?erlpdm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+[class^="fa-"], [class*=" fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  /* font-family: 'FontAwesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none; */
+  /* line-height: 1; */
+  /* Better Font Rendering =========== */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-plus:before {
+  content: "\f067";
+}
+.fa-user:before {
+  content: "\f007";
+}
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-close:before {
+  content: "\f00d";
+}
+.fa-remove:before {
+  content: "\f00d";
+}
+.fa-times:before {
+  content: "\f00d";
+}
+.fa-search-plus:before {
+  content: "\f00e";
+}
+.fa-search-minus:before {
+  content: "\f010";
+}
+.fa-cog:before {
+  content: "\f013";
+}
+.fa-gear:before {
+  content: "\f013";
+}
+.fa-trash-o:before {
+  content: "\f014";
+}
+.fa-file-o:before {
+  content: "\f016";
+}
+.fa-refresh:before {
+  content: "\f021";
+}
+.fa-font:before {
+  content: "\f031";
+}
+.fa-bold:before {
+  content: "\f032";
+}
+.fa-italic:before {
+  content: "\f033";
+}
+.fa-align-left:before {
+  content: "\f036";
+}
+.fa-align-center:before {
+  content: "\f037";
+}
+.fa-align-right:before {
+  content: "\f038";
+}
+.fa-dedent:before {
+  content: "\f03b";
+}
+.fa-outdent:before {
+  content: "\f03b";
+}
+.fa-indent:before {
+  content: "\f03c";
+}
+.fa-image:before {
+  content: "\f03e";
+}
+.fa-photo:before {
+  content: "\f03e";
+}
+.fa-picture-o:before {
+  content: "\f03e";
+}
+.fa-pencil:before {
+  content: "\f040";
+}
+.fa-edit:before {
+  content: "\f044";
+}
+.fa-pencil-square-o:before {
+  content: "\f044";
+}
+.fa-share-square-o:before {
+  content: "\f045";
+}
+.fa-arrows:before {
+  content: "\f047";
+}
+.fa-chevron-left:before {
+  content: "\f053";
+}
+.fa-chevron-right:before {
+  content: "\f054";
+}
+.fa-times-circle:before {
+  content: "\f057";
+}
+.fa-info-circle:before {
+  content: "\f05a";
+}
+.fa-arrow-left:before {
+  content: "\f060";
+}
+.fa-arrow-right:before {
+  content: "\f061";
+}
+.fa-arrow-up:before {
+  content: "\f062";
+}
+.fa-arrow-down:before {
+  content: "\f063";
+}
+.fa-mail-forward:before {
+  content: "\f064";
+}
+.fa-share:before {
+  content: "\f064";
+}
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+.fa-exclamation-triangle:before {
+  content: "\f071";
+}
+.fa-warning:before {
+  content: "\f071";
+}
+.fa-chevron-up:before {
+  content: "\f077";
+}
+.fa-chevron-down:before {
+  content: "\f078";
+}
+.fa-folder:before {
+  content: "\f07b";
+}
+.fa-folder-open:before {
+  content: "\f07c";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-twr:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-fce:before {
+  content: "\f09a";
+}
+.fa-facebook-f:before {
+  content: "\f09a";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-gh:before {
+  content: "\f09b";
+}
+.fa-cut:before {
+  content: "\f0c4";
+}
+.fa-scissors:before {
+  content: "\f0c4";
+}
+.fa-copy:before {
+  content: "\f0c5";
+}
+.fa-files-o:before {
+  content: "\f0c5";
+}
+.fa-bars:before {
+  content: "\f0c9";
+}
+.fa-navicon:before {
+  content: "\f0c9";
+}
+.fa-reorder:before {
+  content: "\f0c9";
+}
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+.fa-underline:before {
+  content: "\f0cd";
+}
+.fa-table:before {
+  content: "\f0ce";
+}
+.fa-magic:before {
+  content: "\f0d0";
+}
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+.fa-caret-right:before {
+  content: "\f0da";
+}
+.fa-sort-desc:before {
+  content: "\f0dd";
+}
+.fa-sort-down:before {
+  content: "\f0dd";
+}
+.fa-clipboard:before {
+  content: "\f0ea";
+}
+.fa-paste:before {
+  content: "\f0ea";
+}
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+.fa-circle:before {
+  content: "\f111";
+}
+.fa-mail-reply:before {
+  content: "\f112";
+}
+.fa-reply:before {
+  content: "\f112";
+}
+.fa-exclamation:before {
+  content: "\f12a";
+}
+.fa-eraser:before {
+  content: "\f12d";
+}
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+.fa-file:before {
+  content: "\f15b";
+}
+.fa-file-text:before {
+  content: "\f15c";
+}
+.fa-google:before {
+  content: "\f1a0";
+}
+.fa-gg:before {
+  content: "\f1a0";
+}
+.fa-trash:before {
+  content: "\f1f8";
+}
+.fa-i-cursor:before {
+  content: "\f246";
+}
+.fa-hand-paper-o:before {
+  content: "\f256";
+}
+.fa-hand-stop-o:before {
+  content: "\f256";
+}
+</style><style>
 
 compositeblock {
   display: inline-block;
@@ -5429,360 +5732,4 @@ document-info-container modal-container button.ok.btn-primary {
 /**Context Level 2 inside docsContainerZIndex*/
 
 
-</style><style>/* @font-face {
-  font-family: 'FontAwesome';
-  src: format('woff'), url('../../fonts/icomoon.svg?erlpdm#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-} */
-
-[class^="fa-"], [class*=" fa-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  /* font-family: 'FontAwesome' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none; */
-  /* line-height: 1; */
-  /* Better Font Rendering =========== */
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.fa-plus:before {
-  content: "\f067";
-}
-.fa-user:before {
-  content: "\f007";
-}
-.fa-check:before {
-  content: "\f00c";
-}
-.fa-close:before {
-  content: "\f00d";
-}
-.fa-remove:before {
-  content: "\f00d";
-}
-.fa-times:before {
-  content: "\f00d";
-}
-.fa-search-plus:before {
-  content: "\f00e";
-}
-.fa-search-minus:before {
-  content: "\f010";
-}
-.fa-cog:before {
-  content: "\f013";
-}
-.fa-gear:before {
-  content: "\f013";
-}
-.fa-trash-o:before {
-  content: "\f014";
-}
-.fa-file-o:before {
-  content: "\f016";
-}
-.fa-refresh:before {
-  content: "\f021";
-}
-.fa-font:before {
-  content: "\f031";
-}
-.fa-bold:before {
-  content: "\f032";
-}
-.fa-italic:before {
-  content: "\f033";
-}
-.fa-align-left:before {
-  content: "\f036";
-}
-.fa-align-center:before {
-  content: "\f037";
-}
-.fa-align-right:before {
-  content: "\f038";
-}
-.fa-dedent:before {
-  content: "\f03b";
-}
-.fa-outdent:before {
-  content: "\f03b";
-}
-.fa-indent:before {
-  content: "\f03c";
-}
-.fa-image:before {
-  content: "\f03e";
-}
-.fa-photo:before {
-  content: "\f03e";
-}
-.fa-picture-o:before {
-  content: "\f03e";
-}
-.fa-pencil:before {
-  content: "\f040";
-}
-.fa-edit:before {
-  content: "\f044";
-}
-.fa-pencil-square-o:before {
-  content: "\f044";
-}
-.fa-share-square-o:before {
-  content: "\f045";
-}
-.fa-arrows:before {
-  content: "\f047";
-}
-.fa-chevron-left:before {
-  content: "\f053";
-}
-.fa-chevron-right:before {
-  content: "\f054";
-}
-.fa-times-circle:before {
-  content: "\f057";
-}
-.fa-info-circle:before {
-  content: "\f05a";
-}
-.fa-arrow-left:before {
-  content: "\f060";
-}
-.fa-arrow-right:before {
-  content: "\f061";
-}
-.fa-arrow-up:before {
-  content: "\f062";
-}
-.fa-arrow-down:before {
-  content: "\f063";
-}
-.fa-mail-forward:before {
-  content: "\f064";
-}
-.fa-share:before {
-  content: "\f064";
-}
-.fa-exclamation-circle:before {
-  content: "\f06a";
-}
-.fa-exclamation-triangle:before {
-  content: "\f071";
-}
-.fa-warning:before {
-  content: "\f071";
-}
-.fa-chevron-up:before {
-  content: "\f077";
-}
-.fa-chevron-down:before {
-  content: "\f078";
-}
-.fa-folder:before {
-  content: "\f07b";
-}
-.fa-folder-open:before {
-  content: "\f07c";
-}
-.fa-twitter:before {
-  content: "\f099";
-}
-.fa-twr:before {
-  content: "\f099";
-}
-.fa-facebook:before {
-  content: "\f09a";
-}
-.fa-fce:before {
-  content: "\f09a";
-}
-.fa-facebook-f:before {
-  content: "\f09a";
-}
-.fa-github:before {
-  content: "\f09b";
-}
-.fa-gh:before {
-  content: "\f09b";
-}
-.fa-cut:before {
-  content: "\f0c4";
-}
-.fa-scissors:before {
-  content: "\f0c4";
-}
-.fa-copy:before {
-  content: "\f0c5";
-}
-.fa-files-o:before {
-  content: "\f0c5";
-}
-.fa-bars:before {
-  content: "\f0c9";
-}
-.fa-navicon:before {
-  content: "\f0c9";
-}
-.fa-reorder:before {
-  content: "\f0c9";
-}
-.fa-list-ul:before {
-  content: "\f0ca";
-}
-.fa-list-ol:before {
-  content: "\f0cb";
-}
-.fa-strikethrough:before {
-  content: "\f0cc";
-}
-.fa-underline:before {
-  content: "\f0cd";
-}
-.fa-table:before {
-  content: "\f0ce";
-}
-.fa-magic:before {
-  content: "\f0d0";
-}
-.fa-caret-down:before {
-  content: "\f0d7";
-}
-.fa-caret-right:before {
-  content: "\f0da";
-}
-.fa-sort-desc:before {
-  content: "\f0dd";
-}
-.fa-sort-down:before {
-  content: "\f0dd";
-}
-.fa-clipboard:before {
-  content: "\f0ea";
-}
-.fa-paste:before {
-  content: "\f0ea";
-}
-.fa-angle-double-left:before {
-  content: "\f100";
-}
-.fa-angle-double-right:before {
-  content: "\f101";
-}
-.fa-angle-double-up:before {
-  content: "\f102";
-}
-.fa-angle-double-down:before {
-  content: "\f103";
-}
-.fa-circle:before {
-  content: "\f111";
-}
-.fa-mail-reply:before {
-  content: "\f112";
-}
-.fa-reply:before {
-  content: "\f112";
-}
-.fa-exclamation:before {
-  content: "\f12a";
-}
-.fa-eraser:before {
-  content: "\f12d";
-}
-.fa-ellipsis-h:before {
-  content: "\f141";
-}
-.fa-ellipsis-v:before {
-  content: "\f142";
-}
-.fa-file:before {
-  content: "\f15b";
-}
-.fa-file-text:before {
-  content: "\f15c";
-}
-.fa-google:before {
-  content: "\f1a0";
-}
-.fa-gg:before {
-  content: "\f1a0";
-}
-.fa-trash:before {
-  content: "\f1f8";
-}
-.fa-i-cursor:before {
-  content: "\f246";
-}
-.fa-hand-paper-o:before {
-  content: "\f256";
-}
-.fa-hand-stop-o:before {
-  content: "\f256";
-}
-</style><style>.plotly-notifier .notifier-close:hover { color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; }
-.plotly-notifier .notifier-close { color: rgb(255, 255, 255); opacity: 0.8; float: right; padding: 0px 5px; background: none; border: none; font-size: 20px; font-weight: bold; line-height: 20px; }
-.plotly-notifier .notifier-note { min-width: 180px; max-width: 250px; border: 1px solid rgb(255, 255, 255); z-index: 3000; margin: 0px; background-color: rgba(140, 151, 175, 0.9); color: rgb(255, 255, 255); padding: 10px; overflow-wrap: break-word; hyphens: auto; }
-.plotly-notifier p { margin: 0px; }
-.plotly-notifier { font-family: "Open Sans", verdana, arial, sans-serif; position: fixed; top: 50px; right: 20px; z-index: 10000; font-size: 10pt; max-width: 180px; }
-.js-plotly-plot .plotly .select-outline-2 { stroke: black; stroke-dasharray: 2px, 2px; }
-.js-plotly-plot .plotly .select-outline-1 { stroke: white; }
-.js-plotly-plot .plotly .select-outline { fill: none; stroke-width: 1; shape-rendering: crispedges; }
-.js-plotly-plot .plotly .vertical [data-title]::before { border-width: 6px; border-style: solid; border-color: transparent transparent transparent rgb(105, 115, 138); border-image: initial; margin-top: 8px; margin-right: -30px; }
-.js-plotly-plot .plotly .vertical [data-title]::before, .js-plotly-plot .plotly .vertical [data-title]::after { top: 0%; right: 200%; }
-.js-plotly-plot .plotly [data-title]::after { content: attr(data-title); background: rgb(105, 115, 138); color: white; padding: 8px 10px; font-size: 12px; line-height: 12px; white-space: nowrap; margin-right: -18px; border-radius: 2px; }
-.js-plotly-plot .plotly [data-title]::before { content: ""; position: absolute; background: transparent; border-width: 6px; border-style: solid; border-color: transparent transparent rgb(105, 115, 138); border-image: initial; z-index: 1002; margin-top: -12px; margin-right: -6px; }
-.js-plotly-plot .plotly [data-title]:hover::before, .js-plotly-plot .plotly [data-title]:hover::after { display: block; opacity: 1; }
-.js-plotly-plot .plotly [data-title]::before, .js-plotly-plot .plotly [data-title]::after { position: absolute; transform: translate3d(0px, 0px, 0px); display: none; opacity: 0; z-index: 1001; pointer-events: none; top: 110%; right: 50%; }
-.js-plotly-plot .plotly .modebar.vertical .modebar-group .modebar-btn { display: block; text-align: center; }
-.js-plotly-plot .plotly .modebar.vertical .modebar-group { display: block; float: none; padding-left: 0px; padding-bottom: 8px; }
-.js-plotly-plot .plotly .modebar.vertical svg { top: -1px; }
-.js-plotly-plot .plotly .modebar.vertical { display: flex; flex-flow: column wrap; align-content: flex-end; max-height: 100%; }
-.js-plotly-plot .plotly .modebar-btn svg { position: relative; top: 2px; }
-.js-plotly-plot .plotly .modebar-btn { position: relative; font-size: 16px; padding: 3px 4px; height: 22px; cursor: pointer; line-height: normal; box-sizing: border-box; }
-.js-plotly-plot .plotly .modebar-group { float: left; display: inline-block; box-sizing: border-box; padding-left: 8px; position: relative; vertical-align: middle; white-space: nowrap; }
-.js-plotly-plot .plotly:hover .modebar--hover .modebar-group { opacity: 1; }
-.js-plotly-plot .plotly .modebar--hover > :not(.watermark) { opacity: 0; transition: opacity 0.3s ease 0s; }
-.js-plotly-plot .plotly .ease-bg { transition: background-color 0.3s ease 0s; }
-.js-plotly-plot .plotly .modebar { position: absolute; top: 2px; right: 2px; }
-.js-plotly-plot .plotly .cursor-grab { cursor: grab; }
-.js-plotly-plot .plotly .cursor-ne-resize { cursor: ne-resize; }
-.js-plotly-plot .plotly .cursor-n-resize { cursor: n-resize; }
-.js-plotly-plot .plotly .cursor-nw-resize { cursor: nw-resize; }
-.js-plotly-plot .plotly .cursor-e-resize { cursor: e-resize; }
-.js-plotly-plot .plotly .cursor-w-resize { cursor: w-resize; }
-.js-plotly-plot .plotly .cursor-se-resize { cursor: se-resize; }
-.js-plotly-plot .plotly .cursor-s-resize { cursor: s-resize; }
-.js-plotly-plot .plotly .cursor-sw-resize { cursor: sw-resize; }
-.js-plotly-plot .plotly .cursor-ew-resize { cursor: ew-resize; }
-.js-plotly-plot .plotly .cursor-ns-resize { cursor: ns-resize; }
-.js-plotly-plot .plotly .cursor-row-resize { cursor: row-resize; }
-.js-plotly-plot .plotly .cursor-col-resize { cursor: col-resize; }
-.js-plotly-plot .plotly .cursor-move { cursor: move; }
-.js-plotly-plot .plotly .cursor-crosshair { cursor: crosshair; }
-.js-plotly-plot .plotly .cursor-pointer { cursor: pointer; }
-.js-plotly-plot .plotly .cursor-default { cursor: default; }
-.js-plotly-plot .plotly .main-svg .draglayer { pointer-events: all; }
-.js-plotly-plot .plotly .main-svg { position: absolute; top: 0px; left: 0px; pointer-events: none; }
-.js-plotly-plot .plotly svg a:hover { fill: rgb(60, 109, 197); }
-.js-plotly-plot .plotly svg a { fill: rgb(68, 122, 219); }
-.js-plotly-plot .plotly svg { overflow: hidden; }
-.js-plotly-plot .plotly .user-select-none { user-select: none; }
-.js-plotly-plot .plotly .crisp { shape-rendering: crispedges; }
-.js-plotly-plot .plotly a:hover { text-decoration: none; }
-.js-plotly-plot .plotly a { text-decoration: none; }
-.js-plotly-plot .plotly input:focus, .js-plotly-plot .plotly button:focus { outline: none; }
-.js-plotly-plot .plotly input, .js-plotly-plot .plotly button { font-family: "Open Sans", verdana, arial, sans-serif; }
-.js-plotly-plot .plotly, .js-plotly-plot .plotly div { direction: ltr; font-family: "Open Sans", verdana, arial, sans-serif; margin: 0px; padding: 0px; }</style></head><body style="overflow:auto;background:rgb(255, 255, 255);width:auto;height:auto;"><editor-container style="display:block;width:700px;"><math-type class="math-type-for-print" style="user-select:text;"><math-edit-container><editarea class="root-editor" style='font-family: "Courier New", Courier, monospace; font-size: 15px;'><area-baseline aria-hidden="true">a</area-baseline><area-container><line class="root text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block style="font-size: 1.73em;">Linear Algebra for Machine Learning</block></blocks></line><line class="root text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="root text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="root text-mode selected full-line-block-inside" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><compositeblock class="matrix-symbol table-symbol role-tabular selected" dir="ltr"><matrix class="table"><table data-table-id="n0.5818030404269778"><colgroup><col style="width: 331px;"/><col style="width: 327.667px;"/></colgroup><tbody><tr><td data-cindex="0" data-rindex="0" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block style="font-weight: bold;">Part</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="0" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block style="font-weight: bold;">Title</block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="1" rowspan="3" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Part-1</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="1" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="introduction.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="introduction.html" style="color: inherit; text-decoration: inherit;" target="_blank">Introduction</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="2" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="ml_problem.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="ml_problem.html" style="color: inherit; text-decoration: inherit;" target="_blank">ML Problem</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="3" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="datasets.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="datasets.html" style="color: inherit; text-decoration: inherit;" target="_blank">Datasets</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="4" rowspan="6" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Part-2</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="4" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="linear_regression.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="linear_regression.html" style="color: inherit; text-decoration: inherit;" target="_blank">Linear Regression</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="5" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="system_1.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="system_1.html" style="color: inherit; text-decoration: inherit;" target="_blank">System-1</a></block><block>: </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">Xw</block><block class="Relation">=</block><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">0</block></line></editarea></compositeblock></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="6" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="system_2.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="system_2.html" style="color: inherit; text-decoration: inherit;" target="_blank">System-2</a></block><block>: </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">Xw</block><block class="Relation">=</block><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">y</block></line></editarea></compositeblock></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="7" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="system_3.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="system_3.html" style="color: inherit; text-decoration: inherit;" target="_blank">System-3</a></block><block>: </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">Xw</block><block class="Relation">≈</block><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">y</block></line></editarea></compositeblock></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="8" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="best_fit.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="best_fit.html" style="color: inherit; text-decoration: inherit;" target="_blank">Best-fit Hyperplane</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="9" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="projections.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="projections.html" style="color: inherit; text-decoration: inherit;" target="_blank">Projections</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="10" rowspan="7" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Part-3</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="10" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="linear_transformations.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="linear_transformations.html" style="color: inherit; text-decoration: inherit;" target="_blank">Linear Transformations</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="11" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="eigenvectors_and_eigenvalues.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="eigenvectors_and_eigenvalues.html" style="color: inherit; text-decoration: inherit;" target="_blank">Eigenvectors and Eigenvalues</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="12" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="characteristic_polynomial.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="characteristic_polynomial.html" style="color: inherit; text-decoration: inherit;" target="_blank">Characteristic Polynomial</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="13" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="computing_eigenvectors.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="computing_eigenvectors.html" style="color: inherit; text-decoration: inherit;" target="_blank">Computing Eigenvectors</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="14" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="diagonalization.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="diagonalization.html" style="color: inherit; text-decoration: inherit;" target="_blank">Diagonalization</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="15" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode selected" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="tests_for_diagonalizability.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="tests_for_diagonalizability.html" style="color: inherit; text-decoration: inherit;" target="_blank">Tests for Diagonalizability</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="16" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="diagonalizabilitiy_in_action.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="diagonalizabilitiy_in_action.html" style="color: inherit; text-decoration: inherit;" target="_blank">Diagonalizability in Action</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="17" rowspan="7" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Part-4</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="17" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="complex_numbers.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="complex_numbers.html" style="color: inherit; text-decoration: inherit;" target="_blank">Complex Numbers</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="18" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="complex_vector_spaces.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="complex_vector_spaces.html" style="color: inherit; text-decoration: inherit;" target="_blank">Complex Vector Spaces</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="19" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="hermitian_matrices.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="hermitian_matrices.html" style="color: inherit; text-decoration: inherit;" target="_blank">Hermitian Matrices</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="20" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="unitary_matrices.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="unitary_matrices.html" style="color: inherit; text-decoration: inherit;" target="_blank">Unitary Matrices</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="21" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="spectral_theorem_theory.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="spectral_theorem_theory.html" style="color: inherit; text-decoration: inherit;" target="_blank">Spectral Theorem</a></block><block> (theory)</block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="22" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="spectral_theorem_examples.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="spectral_theorem_examples.html" style="color: inherit; text-decoration: inherit;" target="_blank">Spectral Theorem</a></block><block> (examples)</block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="23" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="svd_theory.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="svd_theory.html" style="color: inherit; text-decoration: inherit;" target="_blank">SVD</a></block><block> (theory)</block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="24" rowspan="4" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Appendix</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="24" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="cauchy_schwarz.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="cauchy_schwarz.html" style="color: inherit; text-decoration: inherit;" target="_blank">Cauchy-Schwarz Inequality</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="25" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="matrix_product.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="matrix_product.html" style="color: inherit; text-decoration: inherit;" target="_blank">Matrix product</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="26" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="ata_and_aat.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="ata_and_aat.html" style="color: inherit; text-decoration: inherit;" target="_blank">Properties</a></block><block>: </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">A</block><compositeblock class="power-index-symbol-container has-power" dir="ltr"><editarea-block class="power-value" style="line-height: 1.2; margin-bottom: -1.06571em;">T</editarea-block><middle-base><inline></inline></middle-base></compositeblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">A</block></line></editarea></compositeblock><block> and </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">AA</block><compositeblock class="power-index-symbol-container has-power" dir="ltr"><editarea-block class="power-value" style="line-height: 1.2; margin-bottom: -1.06571em;">T</editarea-block><middle-base><inline></inline></middle-base></compositeblock></line></editarea></compositeblock></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="27" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="multiplicities_of_eigenvalues.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="multiplicities_of_eigenvalues.html" style="color: inherit; text-decoration: inherit;" target="_blank">Multiplicity of Eigenvalues</a></block></blocks></line></editarea></td></tr></tbody></table><table-resize style="position: absolute; left: 0px; top: 0px; width: 0px; height: 0px;"></table-resize></matrix></compositeblock></blocks></line><line class="root text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="root text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>If you find this resource useful, kindly consider filling this </block><block class="role-hyper-link" data-hyper-link-url="https://forms.gle/7zKcFLw7rMid35iF9" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="https://forms.gle/7zKcFLw7rMid35iF9" style="color: inherit; text-decoration: inherit;" target="_blank">feedback form</a></block><block>. You can use the same form to communicate typos or errors in these documents. You can also drop a mail at karthik@study.iitm.ac.in.</block></blocks></line></area-container></editarea><div></div></math-edit-container></math-type></editor-container></body></html>
+</style></head><body style="overflow:auto;background:rgb(255, 255, 255);width:auto;height:auto;"><editor-container style="display:block;width:700px;"><math-type class="math-type-for-print" style="user-select:text;"><math-edit-container><editarea class="root-editor" style='font-family: "Courier New", Courier, monospace; font-size: 15px;'><area-baseline aria-hidden="true">a</area-baseline><area-container><line class="root text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block style="font-size: 1.73em;">Linear Algebra for Machine Learning</block></blocks></line><line class="root text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="root text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>If you find this resource useful, kindly consider filling this </block><block class="role-hyper-link" data-hyper-link-url="https://forms.gle/7zKcFLw7rMid35iF9" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="https://forms.gle/7zKcFLw7rMid35iF9" style="color: inherit; text-decoration: inherit;" target="_blank">feedback form</a></block><block>. You can use the same form to communicate typos or errors in these documents. You can also drop a mail at karthik@study.iitm.ac.in.</block></blocks></line><line class="root text-mode selected" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="root text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="root text-mode full-line-block-inside" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><compositeblock class="matrix-symbol table-symbol role-tabular" dir="ltr"><matrix class="table"><table data-table-id="n0.5818030404269778"><colgroup><col style="width: 331px;"/><col style="width: 327.667px;"/></colgroup><tbody><tr><td data-cindex="0" data-rindex="0" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block style="font-weight: bold;">Part</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="0" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block style="font-weight: bold;">Title</block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="1" rowspan="3" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Part-1</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="1" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="introduction.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="introduction.html" style="color: inherit; text-decoration: inherit;" target="_blank">Introduction</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="2" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="ml_problem.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="ml_problem.html" style="color: inherit; text-decoration: inherit;" target="_blank">ML Problem</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="3" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="datasets.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="datasets.html" style="color: inherit; text-decoration: inherit;" target="_blank">Datasets</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="4" rowspan="6" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Part-2</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="4" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="linear_regression.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="linear_regression.html" style="color: inherit; text-decoration: inherit;" target="_blank">Linear Regression</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="5" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="system_1.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="system_1.html" style="color: inherit; text-decoration: inherit;" target="_blank">System-1</a></block><block>: </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">Xw</block><block class="Relation">=</block><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">0</block></line></editarea></compositeblock></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="6" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="system_2.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="system_2.html" style="color: inherit; text-decoration: inherit;" target="_blank">System-2</a></block><block>: </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">Xw</block><block class="Relation">=</block><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">y</block></line></editarea></compositeblock></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="7" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="system_3.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="system_3.html" style="color: inherit; text-decoration: inherit;" target="_blank">System-3</a></block><block>: </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">Xw</block><block class="Relation">≈</block><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">y</block></line></editarea></compositeblock></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="8" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="best_fit.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="best_fit.html" style="color: inherit; text-decoration: inherit;" target="_blank">Best-fit Hyperplane</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="9" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="projections.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="projections.html" style="color: inherit; text-decoration: inherit;" target="_blank">Projections</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="10" rowspan="7" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Part-3</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="10" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="linear_transformations.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="linear_transformations.html" style="color: inherit; text-decoration: inherit;" target="_blank">Linear Transformations</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="11" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="eigenvectors_and_eigenvalues.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="eigenvectors_and_eigenvalues.html" style="color: inherit; text-decoration: inherit;" target="_blank">Eigenvectors and Eigenvalues</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="12" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="characteristic_polynomial.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="characteristic_polynomial.html" style="color: inherit; text-decoration: inherit;" target="_blank">Characteristic Polynomial</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="13" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="computing_eigenvectors.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="computing_eigenvectors.html" style="color: inherit; text-decoration: inherit;" target="_blank">Computing Eigenvectors</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="14" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="diagonalization.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="diagonalization.html" style="color: inherit; text-decoration: inherit;" target="_blank">Diagonalization</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="15" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="tests_for_diagonalizability.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="tests_for_diagonalizability.html" style="color: inherit; text-decoration: inherit;" target="_blank">Tests for Diagonalizability</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="16" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="diagonalizabilitiy_in_action.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="diagonalizabilitiy_in_action.html" style="color: inherit; text-decoration: inherit;" target="_blank">Diagonalizability in Action</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="17" rowspan="7" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Part-4</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="17" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="complex_numbers.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="complex_numbers.html" style="color: inherit; text-decoration: inherit;" target="_blank">Complex Numbers</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="18" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="complex_vector_spaces.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="complex_vector_spaces.html" style="color: inherit; text-decoration: inherit;" target="_blank">Complex Vector Spaces</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="19" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="hermitian_matrices.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="hermitian_matrices.html" style="color: inherit; text-decoration: inherit;" target="_blank">Hermitian Matrices</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="20" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="unitary_matrices.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="unitary_matrices.html" style="color: inherit; text-decoration: inherit;" target="_blank">Unitary Matrices</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="21" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="spectral_theorem_theory.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="spectral_theorem_theory.html" style="color: inherit; text-decoration: inherit;" target="_blank">Spectral Theorem</a></block><block> (theory)</block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="22" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="spectral_theorem_examples.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="spectral_theorem_examples.html" style="color: inherit; text-decoration: inherit;" target="_blank">Spectral Theorem</a></block><block> (examples)</block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="23" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="svd_theory.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="svd_theory.html" style="color: inherit; text-decoration: inherit;" target="_blank">SVD</a></block><block> (theory)</block></blocks></line></editarea></td></tr><tr><td data-cindex="0" data-rindex="24" rowspan="4" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="text-mode align-center" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block>Appendix</block></blocks></line></editarea></td><td data-cindex="1" data-rindex="24" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="cauchy_schwarz.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="cauchy_schwarz.html" style="color: inherit; text-decoration: inherit;" target="_blank">Cauchy-Schwarz Inequality</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="25" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="matrix_product.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="matrix_product.html" style="color: inherit; text-decoration: inherit;" target="_blank">Matrix product</a></block></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="26" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="ata_and_aat.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="ata_and_aat.html" style="color: inherit; text-decoration: inherit;" target="_blank">Properties</a></block><block>: </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">A</block><compositeblock class="power-index-symbol-container has-power" dir="ltr"><editarea-block class="power-value" style="line-height: 1.2; margin-bottom: -1.06571em;">T</editarea-block><middle-base><inline></inline></middle-base></compositeblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">A</block></line></editarea></compositeblock><block> and </block><compositeblock class="math-container-symbol role-mathmode-area inline" dir="ltr" style="font-size: 17px;"><editarea class="math-mode-font lazyable no-area-container" style="font-family: LatinModern-Math, LatinModern, Asana-Math, Asana;"><line class="" style="line-height: 1.2;"><baselineblock></baselineblock><block class="Normal" style="font-family: LatinModern-Mathrm, LatinModern-Math, LatinModern, Asana; font-weight: bold;">AA</block><compositeblock class="power-index-symbol-container has-power" dir="ltr"><editarea-block class="power-value" style="line-height: 1.2; margin-bottom: -1.06571em;">T</editarea-block><middle-base><inline></inline></middle-base></compositeblock></line></editarea></compositeblock></blocks></line></editarea></td></tr><tr><td data-cindex="1" data-rindex="27" style="padding: 0.5em; border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px;"><editarea class="text-mode"><line class="text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><block class="role-hyper-link" data-hyper-link-url="multiplicity_of_eigenvalues.html" style="text-decoration: underline; color: rgb(17, 85, 204);"><a href="multiplicity_of_eigenvalues.html" style="color: inherit; text-decoration: inherit;" target="_blank">Multiplicity of Eigenvalues</a></block></blocks></line></editarea></td></tr></tbody></table><table-resize style="position: absolute; left: 0px; top: 0px; width: 0px; height: 0px;"></table-resize></matrix></compositeblock></blocks></line><line class="root text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line><line class="root text-mode" style="line-height: 1.4;"><prefix></prefix><blocks><baselineblock class="inline"></baselineblock><emptyblock aria-label="empty line"> </emptyblock></blocks></line></area-container></editarea><div></div></math-edit-container></math-type></editor-container></body></html>
